@@ -7,7 +7,8 @@ $(function(){
 });
 
 $(window).scroll(function(){
-        if($(this).scrollTop > $("#news").offset.top){
+        /*if($(this).scrollTop > $("#news").offset.top){
         }
-        console.log($(window).scrollTop + " " + $("#news").offset.top);
+        console.log($(window).scrollTop + " " + $("#news").offset.top);*/
+        console.log("Hello wrodl!")
 });
