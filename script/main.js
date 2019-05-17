@@ -8,6 +8,6 @@ $(function(){
 
 $(window).scroll(function(){
         if($(this).scrollTop > $("#news").offset.top){
-                alert("fine!")
+                console.log("fine");
         }
 });
