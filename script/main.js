@@ -5,9 +5,3 @@ $(function(){
                 return false;
         });
 });
-
-$(window).scroll(function(){
-        if($(window).scrollTop > 10){
-                $("#scroll-top").css("display": "block")
-        }
-});
