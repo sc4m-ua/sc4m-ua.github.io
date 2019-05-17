@@ -7,7 +7,7 @@ $(function(){
 });
 
 $(window).scroll(function(){
-        if($(this).scrollTop > $(news).offset.top){
+        if($(this).scrollTop > $("#news").offset.top){
                 alert("fine!")
         }
 });
