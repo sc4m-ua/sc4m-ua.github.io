@@ -190,7 +190,7 @@ header #menu a{
     border: 2px solid black;
     font-size:1.5em;
     border-radius: 10px;
-    padding:5px;
+    
 }
 #callback-form textarea{
     height: 300px;
