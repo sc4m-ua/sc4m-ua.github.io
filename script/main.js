@@ -9,5 +9,5 @@ $(function(){
 $(window).scroll(function(){
         if($(this).scrollTop > $("#news").offset.top){
         }
-        console.log($(this).scrollTop + " " + $("#news").offset.top);
+        console.log($(window).scrollTop + " " + $("#news").offset.top);
 });
